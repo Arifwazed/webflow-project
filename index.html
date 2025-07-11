@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/webflow.css">
 </head>
-<body class="ralewayfont">
+<body class="ralewayfont bg">
     <header class="header">
         <nav>
             <h3 class="interfont">LOGO</h3>
@@ -50,9 +50,24 @@
                 </div>
             </div>
         </section>
+
         <section class="touch">
-            <h1 class="touch-title">Let’s Get in Touch</h1>
+            <div class="touch-column">
+                <h1 class="touch-title">Let’s Get in Touch</h1>
+            </div>
+            <div class="touch-column">
+                <form action="" class="interfont">
+                    <label for="email" >Email</label> <br>
+                    <input type="email" name="" id="email" placeholder="example@gmail.com"> <br>
+                    <label for="name">Name</label> <br>
+                    <input type="text" name="" id="name" placeholder="full name"> <br>
+                    <label for="msg">Message</label> <br>
+                    <textarea name="" id="msg" >write your message...</textarea> <br>
+                    <input type="button" value="Get in Touch" class="btn-primary">
+                </form>
+            </div>
             
+
         </section>
     </main>
     <footer>

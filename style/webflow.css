@@ -13,6 +13,9 @@
 img{
     border-radius: 48px;
 }
+.bg{
+    background-color: #F5F8FF;
+}
 
 /* Header part*/
 .header{
@@ -125,4 +128,52 @@ nav h3{
 }
 .user-content-subtitle{
     font-size: 20px;
+}
+
+.touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    gap: 115px;
+}
+.touch-column{
+    margin: 71px;
+}
+.touch-title{
+    font-weight: bold;
+    font-size: 97px;
+}
+form label{
+    font-size: 18px;
+    font-weight: 500px;
+}
+form input[type="text"], input[type="email"]{
+    width: 450px;
+    font-size : 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+form textarea{
+    width: 473px;
+    height: 135px;
+    font-size: 20px;
+    padding-left: 32px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 19px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+form input[type="button"]{
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    border: none;
 }
