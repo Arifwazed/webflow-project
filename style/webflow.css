@@ -52,6 +52,11 @@ nav h3{
     margin-top: 51.5px;
     margin-bottom: 51.5px;*/
 }
+.btn-primary:hover{
+    background-color: #e74040;
+    color: #000000; 
+}
+
 .btn1{
     margin: 51.5px 150px;
 }
@@ -105,7 +110,7 @@ nav h3{
     color: #252432;
 }
 
-
+/*---------user--------*/
 .user{
     background-color: rgba(78, 71, 255, 0.1);
     text-align: center;
@@ -179,6 +184,32 @@ nav h3{
     font-weight: 400;
     font-size: 16px;
     color: #B3B3B3;
+}
+
+/*------ready--------*/
+.ready{
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 30px 150px 71px;
+    margin-top: 99px;
+}
+.ready-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.ready-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.ready-button{
+    margin-bottom: 20px;
+}
+.rb{
+    font-weight: 500;
 }
 
 .touch{
